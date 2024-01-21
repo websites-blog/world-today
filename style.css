@@ -69,8 +69,9 @@ nav{
 }
 .row .main h2{
 	word-spacing: 3px;
-	font-size: 24px;
+	font-size: 30px;
 	padding-top: 25px;
+	line-height: 1.2cm;
 }
 .row .main p{
 	line-height: .75cm;
@@ -100,7 +101,7 @@ nav{
 .row hr{
 	margin-top: 4%;
 	margin-bottom: 4%;
-	border-top: 1px solid lightgray;
+	border-top: 1px solid gray;
 }
 
 
