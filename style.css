@@ -30,7 +30,7 @@ nav{
 
 @media screen and (max-width: 800px) {
 	.nav-area{
-		padding: 20px 20px;
+		padding: 7.5px 20px 15px;
 	}
 	.nav-area li a{
 		font-size: 1.5vh;
@@ -39,8 +39,9 @@ nav{
 }
 
 @media screen and (max-width: 480px) {
+
 	.nav-area{
-		padding: 15px 20px;
+		padding: 5px 20px 15px;
 	}
 	.nav-area li a{
 		font-size: 1.5vh;
@@ -106,10 +107,10 @@ nav{
 	width: 35%;
 }
 .row .aside h3{
-	font-size: ;
+	font-size: 16px;
 	text-align: center;
 	background-color: #bfbfbf;
-	padding: 10px 0px;
+	padding: 8px 0px;
 }
 .row .aside p{
 	line-height: .75cm;
@@ -151,9 +152,10 @@ nav{
 	.row .aside{
 
 	}
-	.row .aside h4{
-		font-size: 2.25vh;
+	.row .aside h3{
+		font-size: 2.5vh;
 		text-align: center;
+		padding: 5px 0px;
 	}
 	.row .aside p{
 		font-size: 2vh;
@@ -201,11 +203,15 @@ nav{
 		width: 100%;
 		padding-bottom: 20px;
 	}
+	.row .aside h3{
+		display: none;
+}
 	.row .aside h4{
 		display: none;
 	}
 	.row .aside p{
 		text-align: left;
+		padding: 5px 0px 20px;
 	}
 }
 
