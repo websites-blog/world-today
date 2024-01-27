@@ -14,7 +14,7 @@ nav{
 }
 .nav-area{
 	display: flex;
-	padding: 20px 50px;
+	padding: 10px 50px 15px;
 }
 .nav-area li{
 	list-style: none;
