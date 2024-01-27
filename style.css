@@ -30,7 +30,7 @@ nav{
 
 @media screen and (max-width: 800px) {
 	.nav-area{
-		padding: 7.5px 20px 15px;
+		padding: 8px 20px 15px;
 	}
 	.nav-area li a{
 		font-size: 1.5vh;
@@ -41,7 +41,7 @@ nav{
 @media screen and (max-width: 480px) {
 
 	.nav-area{
-		padding: 5px 20px 15px;
+		padding: 8px 20px 15px;
 	}
 	.nav-area li a{
 		font-size: 1.5vh;
