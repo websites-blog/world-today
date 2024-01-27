@@ -5,6 +5,7 @@
 }
 body{
 	background-color: #d9d9d9;
+	font-family: "Lucida Handwriting" , cursive;
 }
 
 
@@ -19,7 +20,7 @@ nav{
 	list-style: none;
 }
 .nav-area li a{
-	font-family: "Poppins" , sans-serif;
+	
 	text-decoration: none;
 	margin-right: 45px;
 	font-size: 12px;
@@ -51,7 +52,7 @@ nav{
 .row{
 	display: flex;
 	padding: 60px 50px 30px 50px;
-	font-family: "Poppins" , sans-serif;
+	
 }
 .row .main{
 	width: 65%;
@@ -59,7 +60,7 @@ nav{
 }
 .row .main img{
 	width: 100%;
-	height: 325px;
+	height: 350px;
 	border-radius: 10px;
 	object-fit: cover;
 }
@@ -96,21 +97,19 @@ nav{
 	transition: .6s ease;
 }
 .row .main .card{
-	margin-bottom: ;
+	margin-bottom: 5%;
 }
-.row hr{
-	margin-top: 4%;
-	margin-bottom: 4%;
-	border-top: 1px solid gray;
-}
+
 
 
 .row .aside{
 	width: 35%;
 }
-.row .aside h4{
+.row .aside h3{
 	font-size: ;
 	text-align: center;
+	background-color: #bfbfbf;
+	padding: 10px 0px;
 }
 .row .aside p{
 	line-height: .75cm;
@@ -146,9 +145,7 @@ nav{
 	.row .main .card{
 		margin-bottom: 6%;
 	}
-	.row hr{
-		margin-bottom: 5%;
-	}
+	
 
 
 	.row .aside{
@@ -197,9 +194,7 @@ nav{
 	.row .main .more-details a{
 		font-size: 1.75vh;
 	}
-	.row hr{
-		margin-bottom: 7.5%;
-	}
+	
 
 
 	.row .aside{
