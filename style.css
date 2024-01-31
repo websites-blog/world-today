@@ -121,13 +121,16 @@ nav{
 	line-height: .75cm;
 	font-size: 14px;
 	text-align: justify;
-	padding: 20px 0px;
+	padding: 20px 0px 0px;
 }
 
 
 @media screen and (max-width: 800px) {
+	.content{
+		padding: 25px 20px;
+	}
 	.row{
-		padding: 30px 20px 20px 20px;
+		
 	}
 	.row .main{
 		padding-right: 40px;
@@ -168,6 +171,9 @@ nav{
 }
 
 @media screen and (max-width: 480px) {
+	.content{
+		padding: 25px 20px;
+	}
 	.row{
 		flex-direction: column-reverse;
 	}
