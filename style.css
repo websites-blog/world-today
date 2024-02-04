@@ -5,7 +5,7 @@
 }
 body{
 	background-color: #d9d9d9;
-	font-family: "Lucida Handwriting" , cursive;
+	font-family: "Poppins" , sans-serif;
 }
 
 
@@ -62,35 +62,37 @@ nav{
 }
 .row .main{
 	width: 65%;
-	padding-right: 75px;
+	padding-right: 50px;
 }
 .row .main img{
 	width: 100%;
-	height: 350px;
-	border-radius: 10px;
+	height: 275px;
 	object-fit: cover;
 }
 .row .main h2, p{
 	
-	
 }
 .row .main h2{
-	word-spacing: 3px;
-	font-size: 30px;
-	padding-top: 25px;
+	word-spacing: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	padding-top: 20px;
 	line-height: 1.2cm;
+	text-transform: uppercase;
+	
 }
 .row .main p{
 	line-height: .75cm;
 	font-size: 14px;
 	text-align: justify;
-	padding-top: 20px;
+	padding: 15px 0px;
+
 }
 .row .main .more-details{
-	margin-top: 25px;
+	margin-top: 15px;
 }
 .row .main .more-details a{
-	border: 1px solid #000;
+	border: 1px solid gray;
 	text-decoration: none;
 	padding: 7px 12px;
 	font-size: 11px;
@@ -104,24 +106,30 @@ nav{
 }
 .row .main .card{
 	margin-bottom: 7.5%;
+	
 }
 
 
 
 .row .aside{
 	width: 35%;
+	
 }
 .row .aside h3{
 	font-size: 17px;
 	text-align: center;
-	background-color: #bfbfbf;
+	background-color: #333;
+	color: #fff;
 	padding: 8px 0px;
+
 }
 .row .aside p{
 	line-height: .75cm;
 	font-size: 14px;
 	text-align: justify;
-	padding: 20px 0px 0px;
+	padding: 25px 15px 30px;
+	background-color: #fff;
+	margin-top: 20px;
 }
 
 
@@ -137,19 +145,26 @@ nav{
 	}
 	.row .main img{
 		height: 200px;
-		border-radius: 7.5px;
+
 	}
 	.row .main h2{
-		font-size: 3vh;
+		font-size: 2.75vh;
 		line-height: .75cm;
 		padding-top: 20px;
 	}
 	.row .main p{
 		font-size: 2vh;
-		line-height: .7cm;
+		line-height: .75cm;
+		text-align: justify;
+		line-height: .65cm;
+
+	}
+	.row .main .more-details{
+		margin-top: 10px;
 	}
 	.row .main .more-details a{
 		font-size: 1.75vh;
+		padding: 5px 10px;
 	}
 	.row .main .card{
 		margin-bottom: 6%;
@@ -158,15 +173,24 @@ nav{
 
 
 	
+	.row .aside{
+		padding-left: 0;
+	}
 	.row .aside h3{
-		font-size: 2.5vh;
+		font-size: 2vh;
 		text-align: center;
-		padding: 5px 0px;
+		padding: 7px 0px;
+	}
+	.row .aside img{
+		height: 120px;
 	}
 	.row .aside p{
 		font-size: 2vh;
-		line-height: .7cm;
+		line-height: .75cm;
 		text-align: justify;
+		padding: 20px 15px 15px;
+		line-height: .65cm;
+		margin-top: 15px;
 	}
 }
 
@@ -200,7 +224,7 @@ nav{
 		text-align: left;
 	}
 	.row .main .more-details{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.row .main .more-details a{
 		font-size: 1.75vh;
@@ -211,13 +235,20 @@ nav{
 	.row .aside{
 		width: 100%;
 		padding-bottom: 20px;
+		padding-left: 0;
 	}
 	.row .aside h3{
 		display: none;
 	}
+	.row .aside img{
+		
+	}
 	.row .aside p{
 		text-align: left;
-		padding: 5px 0px 20px;
+		padding: 0px 0px 20px;
+		margin-top: 0px;
+		background-color: #d9d9d9;
+
 	}
 }
 
